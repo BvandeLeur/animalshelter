@@ -1,5 +1,6 @@
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @SuppressWarnings("SpellCheckingInspection")
 public class WebShopTests {
@@ -10,15 +11,15 @@ public class WebShopTests {
     // Deze tests staan verkeerd om omdat IntelliJ
     // denkt dat het leuk is unit test verkeerd om te draaien.
     public void testRemoveProduct() {
-        Assert.assertEquals(webShop.getProducts().size(), 0);
+        assertEquals(webShop.getProducts().size(), 0);
         webShop.removeProduct(product);
-        Assert.assertEquals(webShop.getProducts().size(), 0);
+        assertEquals(webShop.getProducts().size(), 0);
     }
 
     @Test
     public void testNewProduct() {
-        Assert.assertEquals(webShop.getProducts().size(), 0);
+        assertEquals(webShop.getProducts().size(), 0);
         webShop.newProduct(product);
-        Assert.assertEquals(webShop.getProducts().size(), 1);
+        assertEquals(webShop.getProducts().size(), 1);
     }
 }

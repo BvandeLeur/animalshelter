@@ -1,9 +1,10 @@
 package Animals;
 
-import java.util.Date;
-import org.junit.*;
+import org.junit.jupiter.api.Test;
 
-import Animals.Reservor;
+import java.util.Date;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
 public class ReservorTests {
@@ -11,8 +12,8 @@ public class ReservorTests {
     public void testConstructor() {
         Date reservedAt = new Date();
         Reservor reservor = new Reservor("John Doe", reservedAt);
-        Assert.assertEquals("John Doe", reservor.getName());
-        Assert.assertEquals(reservedAt, reservor.getReservationDate());
+        assertEquals("John Doe", reservor.getName());
+        assertEquals(reservedAt, reservor.getReservationDate());
     }
 
 }
