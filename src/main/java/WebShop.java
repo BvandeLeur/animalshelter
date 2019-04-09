@@ -10,6 +10,7 @@ class WebShop {
 
     }
 
+
     static WebShop getInstance() {
         return instance;
     }

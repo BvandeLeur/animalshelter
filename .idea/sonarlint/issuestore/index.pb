@@ -29,3 +29,15 @@ J
 src/main/java/WebShop.java,2\9\299b0d3321d46a75b66de2d4c3cdbefb7c8c5ecb
 N
 src/test/java/WebShopTest.java,4\5\45e8ee3814e22824c51868d9b646dd4aa2f8d8ce
+O
+src/test/java/ProductTests.java,e\c\ec398a3f8c7bfd987da2f6e5183aeba2953812bc
+S
+#src/test/java/ReservationTests.java,8\c\8c0835b143e875ba603cfcede0ef0833dfc47fa8
+O
+src/test/java/WebShopTests.java,d\8\d8a621d7ad5f83f51ef3af2b7838557142f6ce07
+S
+#src/test/java/Animals/DogTests.java,4\0\40413fc565758c96dcd76f8d722f2f51cc9ed05a
+S
+#src/test/java/Animals/CatTests.java,7\1\714c22c6677ee19dd2452213dd0e41bcb9bf500a
+X
+(src/test/java/Animals/ReservorTests.java,3\f\3fda703390eb6ba366ce8915048ef82107fb9ea0
